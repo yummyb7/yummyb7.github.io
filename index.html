@@ -1,0 +1,163 @@
+<!DOCKTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Жалюзи</title>
+    
+	<link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\slick.css">
+</head>
+
+
+<body>
+	
+	<section class="main_menu">
+        <div class="center">
+		<div class="zag">Zhaluzy</div>
+        
+        
+            <div class="block">
+                <a class="adr">ул.Лазаренко 11</a> 
+                <a href="+375291858568" class="tel">+375 (29) 185-85-68</a> 
+            </div>
+        </div>
+	</section>	
+    
+    <section class="slider">
+        <div><img src="slider1.jpg" alt=""></div>
+        <div><img src="slider2.jpg" alt=""></div>
+    </section>
+             
+    <section class="triggers">
+        <div class="center">
+            <ul>
+                <li class="open_popup">
+                <img src="plisse.jpg" alt="" open_popup>
+                    <div class="trigger_text" open_popup>Плиссе</div>
+                </li>
+                <li class="open_popup2">
+                <img src="rulon.jpg" alt="">
+                    <div class="trigger_text">Рулонные</div>
+                </li>
+                <li class="open_popup3">
+                <img src="vertical.jpg" alt="">
+                    <div class="trigger_text">Вертикальные</div>
+                </li>
+                <li class="open_popup4">
+                <img src="gorizont.jpg" alt="">
+                    <div class="trigger_text">Горизонтальные</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="popup_plisse">
+    <div class="popup_close"></div>
+        
+        
+    <div class="popup_titlep">Плиссе</div>
+        
+        <div class="popup_textbox">
+Современный взгляд на классику,простой вариант без лишних механизмов,также просты в использовании как и рулонные.
+            
+Всех цветов и размеров
+
+Остальное уточняется по телефону
+        </div>
+        <input type="button" class="popup_btn" value="Оформить заказ">
+        
+    </section>
+    
+    <section class="popup_rulon">
+    <div class="popup_close"></div>
+        
+        
+    <div class="popup_titlev">Рулонные</div>
+        
+        <div class="popup_textbox">Рулонные жалюзи позволят полностью перекрыть свет,и придадут свежий вид вашим окнам.Крайне просты в использовании т.к. в отличии от классических регулируются в одной плоскости.
+            
+        Остальное уточняется по телефону
+        </div>
+        <input type="button" class="popup_btnr" value="Оформить заказ">
+        
+    </section>
+    
+    <section class="popup_vertical">
+    <div class="popup_close"></div>
+        
+        
+    <div class="popup_title">Вертикальные</div>
+        
+        <div class="popup_textbox">Вторые по распространённости,но не уступающие не в чем горизонтальным. 
+            Выбираются в случае большей площади окон.
+            
+        Остальное уточняется по телефону
+        </div>
+        <input type="button" class="popup_btnv" value="Оформить заказ">
+        
+    </section>
+    <section class="popup_gorizontal">
+    <div class="popup_close"></div>
+        <div class="popup_titleg">Горизонтальные</div>
+        
+        <div class="popup_textbox">Классические жалюзи которые чаще всего встречаются.
+Проверенные временем практичность и надежность.
+        Остальное уточняется по телефону
+        </div>
+        <input type="button" class="popup_btng"  value="Оформить заказ">
+        
+    </section>
+    
+    
+    <div class="bg_popup"></div>
+    <div id="map"></div>
+    
+    <section class="main_menu">
+        <div class="center">
+		<div class="zag">Zhaluzy</div>
+        <div class="block">
+            <a class="adr">ул.Лазаренко 11</a> 
+            <a href="+375291858568" class="tel">+375 (29) 185-85-68</a>     
+        </div>
+        </div>
+    </section>
+    
+    
+    
+  <div class="form-container">
+			<div class="note"></div>
+			<div class="fields">
+				<form class="ajax-contact-form" action="">
+					<div class="col"><input type="text" name="name" value="" class="rzm" placeholder="Имя"></div>
+					<div class="row">
+						<div class="col"><input type="tel" name="tel" value="" placeholder="Телефон" class="rzm"></div>
+						<div class="col"><input type="email" name="email" value="" placeholder="E-mail" class="rzm"></div>
+						</div>
+					<textarea class="ord" name="message" cols="40" rows="3"></textarea>
+					<input type="submit" name="submit" class="form-container__btn" value="Отправить">
+				
+                        </form>
+			</div>
+		</div>       
+        
+        
+	<script src="js\jquery-3.3.1.min.js"></script>
+    <script src="js\slick.js"></script>
+    <script src="js\scripts.js"></script>
+    <script src="js\contactform.js"></script>
+    <script>
+function initMap() {
+  var uluru = {lat: 53.898775, lng: 30.3277559};
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 18, center: uluru});
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLBny2nEzFdOzBVt0oG4n3KSERX_2y2Uc&callback=initMap">
+    </script>
+    
+   
+</body>
+
+</html>
