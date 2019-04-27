@@ -110,7 +110,7 @@
     
     
     <div class="bg_popup"></div>
-    <div id="map"></div>
+    <iframe src="https://www.google.com/maps/d/embed?mid=1KHfdIsgKOUkhdSxdSKn--qUEjEh0lhV3" width="60%" height="400"></iframe>
     
     <section class="main_menu">
         <div class="center">
@@ -145,18 +145,7 @@
     <script src="slick.js"></script>
     <script src="scripts.js"></script>
     <script src="contactform.js"></script>
-    <script>
-function initMap() {
-  var uluru = {lat: 53.898775, lng: 30.3277559};
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 18, center: uluru});
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLBny2nEzFdOzBVt0oG4n3KSERX_2y2Uc&callback=initMap">
-    </script>
-    
+       
    
 </body>
 
