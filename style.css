@@ -94,7 +94,7 @@
 
 .slider button.slick-prev{
     left: 0px;
-    background-image: url('../html/prev.png');
+    background-image: url('prev.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30px;
@@ -104,7 +104,7 @@
 
 .slider button.slick-next{
     right: 0px;
-    background-image: url('../html/next.png');
+    background-image: url('next.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30px;
@@ -180,7 +180,7 @@
     height: 20px;
     float: right;
     margin: 5px;
-    background-image: url(../html/close.png);
+    background-image: url(close.png);
 }
 
 .popup_textbox{
@@ -274,7 +274,7 @@
     left: 0; right: 0;
     margin: auto;
     z-index: 100;
-    background-image: url(../html/poup3.png);
+    background-image: url(poup3.png);
     background-repeat: no-repeat;
 }
 
@@ -289,7 +289,7 @@
     left: 0; right: 0;
     margin: auto;
     z-index: 100;
-    background-image: url(../html/poup2.png);
+    background-image: url(poup2.png);
     background-repeat: no-repeat;
 }
 
@@ -331,7 +331,7 @@
     left: 0; right: 0;
     margin: auto;
     z-index: 100;
-    background-image: url(../html/poup1.png);
+    background-image: url(poup1.png);
     background-repeat: no-repeat;
 }
 
@@ -345,7 +345,7 @@
     left: 0; right: 0;
     margin: auto;
     z-index: 100;
-    background-image: url(../html/poup4.png);
+    background-image: url(poup4.png);
     background-repeat: no-repeat;
 }
 
