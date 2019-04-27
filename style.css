@@ -396,12 +396,14 @@
 }
 
 #map{
-    width: 60%;
+   width: 60%;
     height: 400px;
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
     margin-top: 30px;
+    position: relative;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 1000px){
