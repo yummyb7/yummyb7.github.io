@@ -408,7 +408,7 @@
 
 @media only screen and (max-width: 1000px){
     .slider{
-        height: 40%;
+        height: 30%;
     }
     .triggers{
         margin-left: 150px;
@@ -421,7 +421,7 @@
 
 @media only screen and (max-width: 700px){
     .slider{
-        height: 40%;
+        height: 30%;
     }
     
     
